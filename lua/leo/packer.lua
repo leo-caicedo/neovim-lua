@@ -22,6 +22,8 @@ return require('packer').startup(function(use)
         end
     })
 
+    use { "ellisonleao/gruvbox.nvim" }
+
     -- GIT
     --use("tpope/vim-fugitive")
     use("lewis6991/gitsigns.nvim")
