@@ -23,6 +23,7 @@ return require('packer').startup(function(use)
     })
 
     use { "ellisonleao/gruvbox.nvim" }
+    use { "dracula/vim" }
 
     -- GIT
     --use("tpope/vim-fugitive")
